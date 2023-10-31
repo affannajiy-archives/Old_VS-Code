@@ -1,6 +1,6 @@
 print("hello world")
 
-name = input(str("I need your name: "))
-age = input(int("I need your age: "))
-print(name)
-print(age)
+name = input(str("What is your name: "))
+age = input(int("What is your age: "))
+print("Your name is ",name)
+print("Your age is ",age)
