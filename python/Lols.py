@@ -6,4 +6,4 @@ print("Your name is ",name)
 
 #Age
 age = input(str("What is your age: "))
-print("Your age is ",age," year(s) old")
+print("Your age is",age,"year(s) old")
