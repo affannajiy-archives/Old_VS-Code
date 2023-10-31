@@ -10,6 +10,7 @@ print("Hello there!")
 print("Welcome to the number guessing game!")
 print("I've generated a random number between 0 and 10000000.")
 print("Try to guess it in as few tries as possible.")
+print("------------------------------------------------")
 
 #choice to play
 choice = str(input("Do you want to play?")).lower()
@@ -33,12 +34,12 @@ while guess!= number:
     numguess += 1
   #if correct guess
   else:
-    print("-----------------------")
+    print("---------------------------------")
     print("You've won! Well done",name+"!")
-    print("You have guessed",numguess,"times!")
+    print("You have guessed",numguess,"time(s)!")
     exit()
 
-#ask if they want to proceed
+#ask if they want to proceed midgame
 if numguess == 10 or numguess == 20 or numguess == 30 or numguess == 40:
     ask = input("Do you want to continue? ").lower()
     if ask == "no":
