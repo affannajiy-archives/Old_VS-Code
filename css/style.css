@@ -298,4 +298,108 @@
   height: 47px;
   width: 20px;
   transform: rotate(90deg) translate(-35px, 0px);
+  box-shadow: 4px 0px 0px 0px #843907;
+}
+
+.button-container {
+  background: var(--quinary-color);
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(2, 0px);
+  height: 40px;
+  width: 84px;
+  border-radius: 40px;
+  box-shadow: -4px 6px 0px #FFD100;
+  transform: rotate(-30deg) translate(-9px, 8px);
+}
+
+.button {
+  background: #A24800;
+  display: grid;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  transform: translate(-14px, 7px);
+}
+
+.button::before {
+  background: #C65C14;
+  content: "";
+  display: grid;
+  align-self: center;
+  justify-self: center;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+}
+
+.speaker-container {
+  display: grid;
+  justify-self: center;
+  height: 26px;
+  width: 36px;
+  transform: translate(0px, -17px);
+}
+
+.speaker {
+  --clr: #A24800;
+  background: var(--clr) ;
+  display: grid;
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  box-shadow:
+    10px 0px 0px var(--clr),
+    20px 0px 0px var(--clr),
+    30px 0px 0px var(--clr),
+    0px 10px 0px var(--clr),
+    10px 10px 0px var(--clr),
+    20px 10px 0px var(--clr),
+    30px 10px 0px var(--clr),
+    0px 20px 0px var(--clr),
+    10px 20px 0px var(--clr),
+    20px 20px 0px var(--clr),
+    30px 20px 0px var(--clr); 
+}
+
+.bottom-circle-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  justify-self: center;
+  height: 16px;
+  width: 38px;
+  transform: translate(0px, -14px);
+}
+
+.circle {
+ background: #FF9100;
+ display: grid;
+ height: 16px;
+ width: 16px;
+ border-radius: 50%;
+}
+
+.circle:nth-child(2) {
+  transform: translate(3px);
+}
+
+.console-sub-bottom {
+  background: #FF7900;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  width: var(--size);
+  border-radius: 0px 0px 24px 24px;
+  transform: translate(0px, -22px);
+  box-shadow: 0px -6px 0px #A24800 inset;
+}
+
+.sub-bottom-rectangle {
+  background: #843907;
+  display: grid;
+  height: 8px;
+  width: 162px;
+  transform: translate(0px, 8px);
 }
