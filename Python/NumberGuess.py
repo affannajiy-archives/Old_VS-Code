@@ -12,7 +12,7 @@ print("I've generated a random number between 0 and 10000000.")
 print("Try to guess it in as few tries as possible.")
 print("------------------------------------------------")
 
-#choice to play
+#choice to playSSSAA  
 choice = str(input("Do you want to play?")).lower()
 if choice == "yes":
     name = input("What is your name?")
