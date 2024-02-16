@@ -1,5 +1,5 @@
 import math
-'''
+
 #a)
 d_n = 1 / (1 + r)**n
 #b)
@@ -8,7 +8,8 @@ t_prime = t * (math.sqrt(1-(V**2 / c**2)))
 V = 4/3 * pi * r**3
 #d)
 x = -b + (math.sqrt(b**2 - 4 * a * c)) / 2 * a
-'''
+
+
 x = 2.5
 y = -1.5
 m = 18
@@ -21,3 +22,12 @@ print(5 * x - n / 5)
 print(math.sqrt (math. sqrt(n)))
 print(s + t)
 print(s + 'is sweet as'+ ' ' + t)
+
+
+d1 = float(input("Insert distance in meters: "))
+d2 = float(input("Insert distance in meters: "))
+
+if d1 < d2:
+  d1,d2 = d2,d1 
+diff = (d1 - d2) / 1000
+print("The difference in kilometers is:", diff)
