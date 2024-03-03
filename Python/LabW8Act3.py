@@ -8,19 +8,19 @@ hour = minute / 60
 if hour >= 2:
   print("You are might be addicted to the Net")
   answer = 0
-  q1 = str(input("Do you stay online longer than you intended? ")).lower()
+  q1 = input("Do you stay online longer than you intended? ").lower()
   if q1 == "yes":
     answer += 1
-  q2 = str(input("Do you hear other people in your life complain about how much time you spend online? ")).lower()
+  q2 = input("Do you hear other people in your life complain about how much time you spend online? ").lower()
   if q2 == "yes":
     answer += 1
-  q3 = str(input("Do you say or think, 'Just a few more minutes' when online? ")).lower()
+  q3 = input("Do you say or think, 'Just a few more minutes' when online? ").lower()
   if q3 == "yes":
     answer += 1
-  q4 = str(input("Do you try and fail to cut down on how much time you spend online? ")).lower()
+  q4 = input("Do you try and fail to cut down on how much time you spend online? ").lower()
   if q4 == "yes":
     answer += 1
-  q5 = str(input("Do you hide how long you’ve been online? ")).lower()
+  q5 = input("Do you hide how long you’ve been online? ").lower()
   if q5 == "yes":
     answer += 1
 
