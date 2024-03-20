@@ -5,7 +5,6 @@ do until x=vbYes
 x=msgbox ("A pledge to the USSR now!! (be comrade),you cannot say No",vbYesNoCancel + vbExclamation ,"USSR!")
 loop
 
-
 choice = MsgBox( _
   "Press OK to pay to be comrade cyka :) ", _
   vbExclamation+vbOkCancel+vbDefaultButton2, _
