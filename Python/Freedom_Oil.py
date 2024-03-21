@@ -16,7 +16,7 @@ def refinery_system(crude_oil_list):
 num = int(input("Please enter total number of refinery units: "))
 
 for j in range(num):
-    unit = eval(input("Please enter the amount of crude oil in unit " + str(j + 1) + ": "))
+    unit = eval(input("Please enter the amount of crude oil in unit {}: ".format(j+1)))
     crude_oil_list.append(unit)
 
 total_crude_oil, percent_crude_oil, gasoline, diesel, jet_fuel = refinery_system(crude_oil_list)
