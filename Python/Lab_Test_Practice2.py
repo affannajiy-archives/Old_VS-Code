@@ -6,7 +6,6 @@ table = int(input("Enter the number of tables: "))
 name = []
 quantity = []
 price = []
-
 total_bills = [] #Initialize an empty list to store total bills per table
 
 for x in range(table):
@@ -29,4 +28,4 @@ for x in range(table):
 print("\nBill Summary:")
 print("No.\tName\t\tTotal Bill") # \t for indentation
 for z in range(table):
-    print("{}\t{}\t\tRM{:.2f}".format(z + 1, name[z], total_bills[z])) # Use total_bills for individual table total
+    print("{}\t{}\t\tRM{:.2f}".format(z + 1, name[z], total_bills[z])) # total_bills for individual table total
