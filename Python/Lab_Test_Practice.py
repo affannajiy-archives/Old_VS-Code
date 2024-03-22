@@ -21,4 +21,4 @@ for x in range(driver):
 print("\nRace Results:") #\n for new line
 print("No.\tName\t\tTotal Time") #\t for indentation
 for z in range(driver):
-    print("{}\t{}\t\t{} seconds".format(z + 1, drivers[z], round(total_times[z], 2)))
+    print("{}\t{}\t\t{:.2f} seconds".format(z + 1, drivers[z], total_times[z]))
