@@ -1,14 +1,15 @@
 
-hehe = open("kopisusu.txt", "w") #writing the textfile
+kopi = open(r"C:\Users\user\OneDrive\Desktop\Visual Studio Code\Python\kopi_susu.txt", "w") #writing the textfile
 
-hehe.write("Kopi O\n")
-hehe.write("Kopi Tarik\n")
-hehe.write("Kopi Susu Tambah\n")
-hehe.write("Kopi Milo Ais\n")
-hehe.write("Kopi Gula")
+kopi.write("Kopi O\n")
+kopi.write("Kopi Tarik\n")
+kopi.write("Kopi Susu Tambah\n")
+kopi.write("Kopi Milo Ais\n")
+kopi.write("Kopi Mak\n")
+kopi.write("Kopi Gula")
 
-hehe.close()
-
+kopi.close()
+print("Completed")
 '''
 k = open("kopisusu.txt", "r")
 list1 = k.readlines()
