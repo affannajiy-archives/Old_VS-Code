@@ -1,4 +1,4 @@
-#Lab Assessment W7 'Affan
+#Lab Week 7
 import math
 
 #P&G User Input

@@ -1,3 +1,4 @@
+#Lab Week 6
 import math
 r = 1
 n = 1
