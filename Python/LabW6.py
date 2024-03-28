@@ -1,4 +1,4 @@
-#Lab Week 6
+#Lab Week 6 'Affan
 import math
 r = 1
 n = 1
