@@ -1,5 +1,12 @@
 import math
-'''
+r = 1
+n = 1
+t = 1
+V = 1
+c = 1
+pi = 3.142
+b = 1 
+a = 1
 #a)
 d_n = 1 / (1 + r)**n
 #b)
@@ -8,7 +15,6 @@ t_prime = t * (math.sqrt(1-(V**2 / c**2)))
 V = 4/3 * pi * r**3
 #d)
 x = -b + (math.sqrt(b**2 - 4 * a * c)) / 2 * a
-'''
 
 x = 2.5
 y = -1.5
