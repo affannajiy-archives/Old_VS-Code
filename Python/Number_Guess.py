@@ -39,7 +39,7 @@ while guess!= number:
     print("You have guessed",numguess,"time(s)!")
     exit()
 
-#ask if they want to proceed midgame
+#ask if they want to proceed
 if numguess == 10 or numguess == 20 or numguess == 30 or numguess == 40:
     ask = input("Do you want to continue? ").lower()
     if ask == "no":
