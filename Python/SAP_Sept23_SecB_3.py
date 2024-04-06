@@ -15,9 +15,11 @@ def assign_grades(score):
     elif score >= 70:
         return "C" 
     elif score >= 60:
-        return "D" 
-    else:
+        return "D"
+    elif score >= 50:
         return "E"
+    else:
+        return "F"
         
 def main(): 
     main_list = []
