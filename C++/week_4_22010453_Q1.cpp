@@ -11,7 +11,7 @@ int main()
   cout << "Enter the sale tax rate (eg. 5 for 5%): ";
   cin >> taxRate;
 
-  sellPrice = oriPrice + (oriPrice * perPcentageMarkup / 100);
+  sellPrice = oriPrice + (oriPrice * percentageMarkup / 100);
   taxAmount = sellPrice * (taxRate / 100);
   finalPrice = sellPrice + taxAmount;
   
