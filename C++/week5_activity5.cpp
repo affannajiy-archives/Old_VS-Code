@@ -10,9 +10,9 @@ int main() {
     cout << "Enter the time day (D = daytime, N = nighttime): ";
     cin >> time;
 
-    if (time == "D" || time == "d"){
+    if (time == 'D' || time == 'd'){
       cost = minutes * 0.12;
-    } else if (time == "N" || time == "n"){
+    } else if (time == 'N' || time == 'n'){
       cost = minutes * 0.05;
     } else {
       cout << "Invalid time of day output";
@@ -22,6 +22,3 @@ int main() {
     cout << "Cost of Call: RM" << cost << endl;
     return 0;
 }
-
-
-
