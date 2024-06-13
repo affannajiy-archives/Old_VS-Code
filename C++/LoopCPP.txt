@@ -1,0 +1,31 @@
+Loop
+-> Reduce Error
+-> More Efficient
+
+Types:
+Pretest, Posttest
+
+Names:
+> For 
+> While
+> Do...While 
+> Foreach 
+
+Structure For Loop
+for (int i = 1; i <= 5; i++){
+  cout << i << endl;
+  }
+>> Initial
+>> Condition
+>> Update
+
+Structure While Loop
+while (cond){
+  loop body
+}
+
+Structure Do...While Loop
+do
+{
+  /* loop body */
+} while (/* condition */); #don't forget the semicolon
