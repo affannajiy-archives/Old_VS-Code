@@ -1,4 +1,5 @@
 Loop
+Put the Little Red Dot, then Debug, and Step Over
 -> Reduce Error
 -> More Efficient
 
@@ -29,3 +30,5 @@ do
 {
   /* loop body */
 } while (/* condition */); #don't forget the semicolon
+
+Activity 6
