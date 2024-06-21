@@ -3,11 +3,10 @@
 using namespace std;
 
 int main(){
-  for (int i = 0; i <= 23 ; i++){
-    for (int j = 0; j <= 59; j++){
-      cout << setfill('0') << setw (2) << i << ":" << setfill('0') << setw (2) << j << endl;
+  for (int hours = 0; hours <= 23 ; hours++){ //hours
+    for (int minutes = 0; minutes <= 59; minutes++){ //menits
+      cout << setfill('0') << setw (2) << hours << ":" << setfill('0') << setw (2) << minutes << endl;
     }
   }
-  
   return 0;
 }

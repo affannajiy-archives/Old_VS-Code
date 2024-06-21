@@ -2,19 +2,18 @@
 using namespace std;
 
 int main(){
-  int i, j;
+  int start, end;
   cout << "Enter start number: ";
-  cin >> i;
+  cin >> start;
   cout << "Enter end number: ";
-  cin >> j;
+  cin >> end;
 
-  for (int z = i; z <= j; z++){
+  for (int z = start; z <= end; z++){
     cout << "Multiplication Table for " << z << ":" << endl;
     for (int y = 1; y <= 10; y++){
       cout << z << " x " << y << " = " << (z * y) << endl;
     }
     cout << endl;
   }
-
   return 0;
 }
