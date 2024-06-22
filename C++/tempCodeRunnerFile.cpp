@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip> //Set Precision
 using namespace std;
 
 int main(){
@@ -14,6 +15,8 @@ int main(){
   cin >> numStudents;
   cout << "Enter Number of Days: ";
   cin >> numDays;
+
+  cout << fixed << setprecision(2); //Set Output to 2 Decimal Places
 
   for (int student = 1; student <= numStudents; student++){ //Student Loop
     float totalExpenses = 0;
