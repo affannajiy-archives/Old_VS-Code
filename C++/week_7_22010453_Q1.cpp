@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip> //Set Precision
 using namespace std;
 
 int main(){
@@ -6,7 +7,7 @@ int main(){
   int numStudents, numDays;
   string name, highestSpender;
   float groceries, transport, bill;
-  float totalExpenses = 0, avgExpenses, highestTotalExpenses = 0;
+  float highestTotalExpenses = 0;
   
   //Inputs
   cout << "^^^STUDENT EXPENSES TRACKER^^^" << endl;
@@ -15,7 +16,10 @@ int main(){
   cout << "Enter Number of Days: ";
   cin >> numDays;
 
+  cout << fixed << setprecision(2); //Set Output to 2 Decimal Places
+
   for (int student = 1; student <= numStudents; student++){ //Student Loop
+    float totalExpenses = 0;
     cout << "---------------------------------" << endl;
     cout << "Enter Student " << student << " Name: "; //Name Input
     cin >> name;
@@ -32,7 +36,7 @@ int main(){
       totalExpenses += groceries + transport + bill; //Calc Total Expenses
     }
   
-    avgExpenses = totalExpenses / numDays; //Calc Average Expenses
+    float avgExpenses = totalExpenses / numDays; //Calc Average Expenses
     cout << "\n=== " << name << " ===" << endl;
     cout << "Total Expenses: RM" << totalExpenses <<endl;
     cout << "Average Daily Expenses: RM" << avgExpenses << endl;
