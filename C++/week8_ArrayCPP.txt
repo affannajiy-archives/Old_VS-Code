@@ -1,0 +1,21 @@
+Array -> store multiple values
+1D - row
+2D - row column
+
+x = 10 -> store only one value
+
+Starts from Box 0 
+
+data_type array_name[index];
+
+ARRAY INITIALISATION
+int x[3] = {1,2,3};
+
+CHANGE ELEMENT
+x[1] = 7 //now 2 becomes 7
+
+INPUT ELEMENT
+cin >> x[2] //User Input Changes the ELEMENT
+
+FOR LOOP
+to print and read the array
