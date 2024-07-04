@@ -1,0 +1,22 @@
+Struct
+
+struct myStructure{
+  int myNum
+  string myString
+};
+
+myStructure.myNum = 123
+myString.myString = "Ali"
+
+struct{
+  int myNum
+  string myString
+} myStructure;
+
+myStructure myS1;
+myS1.myNum = 123
+myS1.myString = "Ali"
+
+typedef struct{
+
+};
