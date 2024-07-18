@@ -1,0 +1,34 @@
+Function
+-> block of code that performs specific task
+
+Types of Function
+i. Predefined Functions
+ii. User Defined Functions
+
+returnType FunctionName (datatype VariableName //Parameter){
+  //Function Body
+}
+
+*if no value, it will return void
+
+You can call function many times
+
+int calc(int n1, int n2){
+  int i = n1 + n2;
+  return i;
+
+  // return n1 + n2;
+}
+
+// 
+Function Prototype
+int calc(int n1, int n2);
+
+int main(){
+  cout << calc(10, 5);
+  return 0;
+}
+
+Functions Overloading (Important in Future)
+-> functions with same name but with different arguments
+-> cannot have different datatype for the function name
