@@ -5,7 +5,7 @@ using namespace std;
 // Variables declaration
 char quit, mark_distribute;
 string grade, next_grade;
-int c = 0, total_subject, CH, total_CH, max_accumulation_point, total_max_accumulation_point, course_selection, type_of_calculator;
+int c = 0, total_subject, CH, total_CH, max_accumulation_point, total_max_accumulation_point, type_of_calculator;
 double total_mark, grade_point, CW_mark, FE_mark, max_CW_mark, min_FE_mark, gpa, CGPA, accumulate_point, total_accumulate_point;
 
 // Struct for student info
@@ -15,7 +15,7 @@ struct StudentInfo {
 } student;
 
 // Function to convert total mark to grade point & grade
-void mark_to_grade_point() {
+void Mark_to_Grade_Point() {
     if (total_mark >= 85 && total_mark <= 100) {
         grade_point = 4.0;
         grade = "A";
@@ -180,7 +180,6 @@ void Mark_Distribution() {
             break;
         default:
             cout << "Error: Invalid input. Please enter [X, Y, Z] only. \n";
-            continue;
         }
         break; //break loop if the input is valid
     }
@@ -239,7 +238,7 @@ void CGPA_Calculator() {
 
         // The calculation
         total_mark = CW_mark + FE_mark;
-        mark_to_grade_point();
+        Mark_to_Grade_Point();
         arr_grade[i] = grade;
         accumulate_point = grade_point * CH;
         max_accumulation_point = 4 * arr_CH[i];
@@ -272,7 +271,7 @@ void CGPA_Calculator() {
 }
 
 // #Function for Mode 2 (CGPA Calculator with Programme Selection)
-void CGPA_Calculator_For_Programme(){
+void CGPA_Calculator_with_Programme(){
     //declare array for Programmes
     string arr_Programme[] = {
             "Chemical Engineering", "Civil Engineering", "Computer Engineering",
@@ -413,7 +412,7 @@ void CGPA_Calculator_For_Programme(){
         // The calculation
         total_CH += arr_CH[i];
         total_mark = CW_mark + FE_mark;
-        mark_to_grade_point();
+        Mark_to_Grade_Point();
         arr_grade[i] = grade;
         accumulate_point = grade_point * arr_CH[i];
         max_accumulation_point = 4 * arr_CH[i];
@@ -471,7 +470,7 @@ void Target_Grade_Estimation() {
     }
     // The calculation
     total_mark = CW_mark + FE_mark;
-    mark_to_grade_point();
+    Mark_to_Grade_Point();
     Min_FE();
 
     //write output
@@ -527,13 +526,15 @@ int main() //the main function
             c = 1;
             break;
         case 2:
-            CGPA_Calculator_For_Programme();
+            CGPA_Calculator_with_Programme();
             c = 1;
             break; 
         case 3:
             Target_Grade_Estimation();
             c = 1;
             break;
+        default:
+            cout << "\nError: Invalid input. Please enter [1, 2, 3] only. \n";
          }
         //ask user if he want to quit
         if (c == 1) {
@@ -547,4 +548,5 @@ int main() //the main function
         }
 
     } while (true);
+  return 0;
 }
