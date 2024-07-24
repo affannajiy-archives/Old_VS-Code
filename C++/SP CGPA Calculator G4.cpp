@@ -52,7 +52,7 @@ void Mark_to_Grade_Point() {
         grade_point = 0;
         grade = "F";
     }
-}   
+}  
 
 // Function to determine the next achievable grade with minimium final exam marks required
 void Next_Grade() {
