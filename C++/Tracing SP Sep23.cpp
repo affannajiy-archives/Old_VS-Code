@@ -1,12 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void pattern(int a, char b){
-  for(int j = 1; j <= a; j++){
-    cout << b << " ";
-    cout << endl;
-  }
-}
+void pattern(int a, char b);
 
 int main(){
   int line = 4;
@@ -18,4 +13,11 @@ int main(){
     pattern(r, '@');
   }
   return 0;
+}
+
+void pattern(int a, char b){
+  for(int j = 1; j <= a; j++){
+    cout << b << " ";
+    cout << endl;
+  }
 }
