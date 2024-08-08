@@ -11,11 +11,10 @@ int main(){
   int i=1, j=2, k=3;
   scramble(i, j, k);
   cout<< "i=" << i << " j=" << j << " k=" << k << endl;
-  return 0;
+  //return 0;
 
-  /*
-  inti=1, j=2, k=3;
+  //int i=1, j=2, k=3;
   scramble(j, j, j);
-  cout<< “i=“ << i << “ j=“ << j << “ k=“ << k << endl;
-  return 0;*/
+  cout<< "i=" << i << " j="<< j << " k=" << k << endl;
+  return 0;
 }
