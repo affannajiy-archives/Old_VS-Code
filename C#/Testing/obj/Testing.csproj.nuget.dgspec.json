@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code\\ConsoleApp\\ConsoleApp.csproj": {}
+    "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code\\C#\\Testing\\Testing.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code\\ConsoleApp\\ConsoleApp.csproj": {
+    "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code\\C#\\Testing\\Testing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code\\ConsoleApp\\ConsoleApp.csproj",
-        "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code\\C#\\Testing\\Testing.csproj",
+        "projectName": "Testing",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code\\C#\\Testing\\Testing.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code\\ConsoleApp\\obj\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Documents\\Visual Studio Code\\C#\\Testing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

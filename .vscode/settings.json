@@ -48,5 +48,5 @@
     "iomanip": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled",
-  "dotnet.defaultSolution": "ConsoleApp.sln"
+  "dotnet.defaultSolution": "Testing.sln"
 }
