@@ -50,15 +50,19 @@ int option;
 int main() {
   for (int i=0; i<2; i++){ //2 Companies
     while (true){
-      cout << "Enter 1 for Input / 2 for Output: ";
+      cout << "Enter 1 for Input / 2 for Output / 3 to Continue /0 to Exit: ";
       cin >> option;
       if (option == 1)
       // a single TransactionList object
         transactions[i].InputFromConsole();
       else if (option == 2)
         transactions[i].OutputToConsole();
+      else if (option == 3)
+        break;
+      else if (option == 0)
+        return 1;
       else
-        cout << "Error" << endl;
+        cout << "Error!" << endl;
       }
     }
   return 0;
