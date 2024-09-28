@@ -1,0 +1,15 @@
+C:\Users\user\OneDrive\Documents\Visual Studio Code\C#\MySecondProgram\bin\Debug\net8.0\MySecondProgram.exe
+C:\Users\user\OneDrive\Documents\Visual Studio Code\C#\MySecondProgram\bin\Debug\net8.0\MySecondProgram.deps.json
+C:\Users\user\OneDrive\Documents\Visual Studio Code\C#\MySecondProgram\bin\Debug\net8.0\MySecondProgram.runtimeconfig.json
+C:\Users\user\OneDrive\Documents\Visual Studio Code\C#\MySecondProgram\bin\Debug\net8.0\MySecondProgram.dll
+C:\Users\user\OneDrive\Documents\Visual Studio Code\C#\MySecondProgram\bin\Debug\net8.0\MySecondProgram.pdb
+C:\Users\user\OneDrive\Documents\Visual Studio Code\C#\MySecondProgram\obj\Debug\net8.0\MySecondProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Documents\Visual Studio Code\C#\MySecondProgram\obj\Debug\net8.0\MySecondProgram.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Documents\Visual Studio Code\C#\MySecondProgram\obj\Debug\net8.0\MySecondProgram.AssemblyInfo.cs
+C:\Users\user\OneDrive\Documents\Visual Studio Code\C#\MySecondProgram\obj\Debug\net8.0\MySecondProgram.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Documents\Visual Studio Code\C#\MySecondProgram\obj\Debug\net8.0\MySecondProgram.sourcelink.json
+C:\Users\user\OneDrive\Documents\Visual Studio Code\C#\MySecondProgram\obj\Debug\net8.0\MySecondProgram.dll
+C:\Users\user\OneDrive\Documents\Visual Studio Code\C#\MySecondProgram\obj\Debug\net8.0\refint\MySecondProgram.dll
+C:\Users\user\OneDrive\Documents\Visual Studio Code\C#\MySecondProgram\obj\Debug\net8.0\MySecondProgram.pdb
+C:\Users\user\OneDrive\Documents\Visual Studio Code\C#\MySecondProgram\obj\Debug\net8.0\MySecondProgram.genruntimeconfig.cache
+C:\Users\user\OneDrive\Documents\Visual Studio Code\C#\MySecondProgram\obj\Debug\net8.0\ref\MySecondProgram.dll
