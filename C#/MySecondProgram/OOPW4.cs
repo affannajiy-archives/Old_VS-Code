@@ -2,36 +2,42 @@
 
 //1 ---------------------------------------------------------------
 int matricNum = 22010453;
-Console.WriteLine(Convert.ToString(matricNum));
+Console.WriteLine("Matric Number (String): " + Convert.ToString(matricNum));
 
 float cgpa = 3.98f;//f for float
-Console.WriteLine(Convert.ToInt32(cgpa));
+Console.WriteLine("CGPA (Int): " + Convert.ToInt32(cgpa));
 Console.Write("\n");
 
 //2 ----------------------------------------------------------------
 bool value = true;
-Console.WriteLine(Convert.ToString(value));
+Console.WriteLine("Boolean (String): " + Convert.ToString(value));
 
 char grade = 'A';
-Console.WriteLine(Convert.ToString(grade));
+Console.WriteLine("Character (String): " + Convert.ToString(grade));
 Console.Write("\n");
 
 //3 ----------------------------------------------------------------
 int x = 8; //declare
 //AND
-Console.WriteLine(x &= 3); //0
+x &= 3;
+Console.WriteLine("AND Operator: " + x);
 
 //OR
-Console.WriteLine(x |= 3); //3
+x |= 3;
+Console.WriteLine("OR Operator: " + x);
 
 //XOR
-Console.WriteLine(x ^= 3); //0
-
-//Left Shift
-Console.WriteLine(x >>= 3); //0
+x ^= 3;
+Console.WriteLine("XOR Operator: " + x);
 
 //Right Shift
-Console.WriteLine(x <<= 3); //0
+x >>= 3;
+Console.WriteLine("Right Shift Operator: " + x);
+
+//Left Shift
+x <<= 3;
+Console.WriteLine("Left Shift Operator: " + x);
+
 Console.Write("\n");
 
 //4 ---------------------------------------------------------------
