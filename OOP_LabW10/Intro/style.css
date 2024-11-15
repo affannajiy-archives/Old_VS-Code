@@ -1,4 +1,10 @@
-/*Main Class*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Body Class*/
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
